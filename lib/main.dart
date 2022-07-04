@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tour_list_application/main_screen.dart';
 import 'detail_screen.dart';
 
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       title: "Wisata Yogyakarta",
       theme: ThemeData(),
-      home: DetailScreen(), //menetapkan detail screen sebagai halaman home
+      home: MainScreen(), //menetapkan detail screen sebagai halaman home
     );
   }
 }
